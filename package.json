@@ -1,0 +1,20 @@
+{
+  "name": "pingstreets3Notification",
+  "version": "1.0.0",
+  "description": "Lambda function that listens for s3 bucket file, then passes key to http enpoint on arcGis server",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tesera/queue2worker-awslambda.git"
+  },
+  "keywords": [
+    "pingstreet",
+    "aws",
+    "lambda"
+  ],
+  "author": "Magda Kosior",
+  "license": "ISC",
+  "dependencies": {
+    "w3c-xmlhttprequest": "^1.2.2"
+  }
+}
